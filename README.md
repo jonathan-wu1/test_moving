@@ -4,4 +4,6 @@ Combine back into 1 file: cat part_* > splunk-mltk-container-golden-image-cpu.ta
 
 Check file type: file splunk-mltk-container-golden-image-cpu.tar.xz
 
-Uncompress: tar -xvf splunk-mltk-container-golden-image-cpu.tar.xz
+Check contents: xz -l splunk-mltk-container-golden-image-cpu.tar.xz 
+
+Uncompress: xz -dk splunk-mltk-container-golden-image-cpu.tar.xz 
